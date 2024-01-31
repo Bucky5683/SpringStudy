@@ -12,13 +12,13 @@ java {
 }
 
 repositories {
-	mavenCentral()
+	mavenCentral()	//라이브러리를 다운로드를 받는 곳 
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'	//템플릿 엔진
+	implementation 'org.springframework.boot:spring-boot-starter-web'	//웹프로젝트 설정
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'	//테스트 라이브러리 설정됨
 }
 
 tasks.named('test') {
